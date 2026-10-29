@@ -1,0 +1,69 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+
+  /* Typography */
+
+  --font-outfit: "Outfit", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Spacing */
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-outfit);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.cardQr {
+  background-color: var(--color-white);
+  width: calc(100% - 32px);
+  max-width: 320px;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 24px;
+}
+.img {
+  display: block;
+  width: 100%;
+  max-width: 288px;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+.text {
+  font-weight: var(--fw-regular);
+  color: var(--color-slate-500);
+}
+.title {
+  font-weight: var(--fw-bold);
+  font-size: 22px;
+  line-height: 1.2;
+  max-width: 250px;
+  margin: 0 auto 16px;
+  text-align: center;
+  color: var(--color-slate-900);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-slate-300);
+}
